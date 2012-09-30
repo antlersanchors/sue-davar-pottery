@@ -1,0 +1,254 @@
+/* Importing variables */
+@import "variables.less";
+@import "mixins.less";
+@import "type.less";
+@import "layouts.less";
+@import "forms.less";
+@import "utilities.less";
+
+/* =============================================================================
+   Base
+   ========================================================================== */
+
+body {
+	    background: url(../Design%20Artefacts/transBG.png), fade(spin(@sdMustard, -40), 75%);
+}
+
+
+
+/* =============================================================================
+   Header
+   ========================================================================== */
+
+#banner {
+	background-image: url(../Design%20Artefacts/transBG.png); 
+}
+
+/* Fixed Topbar Navigation */
+body { padding-top: 60px; }
+body.admin-bar .navbar-fixed-top { top: 28px; }
+
+
+
+/* =============================================================================
+   Content
+   ========================================================================== */
+
+#content { 
+	.drop-cap:first-letter { 
+		float: left; color: @grayDark; font-size: @baseFontSize*6; line-height: @baseLineHeight*3;
+		padding-top: 0px; padding-right: 6px; padding-left: 3px; padding-bottom: 1px; font-family:
+		serif;
+	}
+	.carousel-caption h1 {
+		.pull-right;
+		color: @grayLight;
+	}
+}
+
+	.expansive {
+		font-size: @baseFontSize*1.2;
+		letter-spacing: 1px;
+	}
+
+
+/* =============================================================================
+   Primary Content
+   ========================================================================== */
+
+#main { 
+
+/* Default background for content — initially lifted from wells.less */
+
+min-height: 20px;
+ padding: 30px;
+ margin-bottom: 20px;
+ background: url(../Design%20Artefacts/transBG.png), #f5f5f5;
+ border: 1px solid #eee;
+ border: 1px solid rgba(0, 0, 0, 0.05);
+ -webkit-border-radius: 15px;
+ -moz-border-radius: 15px;
+ border-radius: 15px;
+ -webkit-box-shadow: 3px 3px 1px 3px fade(@grayLight, 20%);
+ -moz-box-shadow: 3px 3px 1px 3px fade(@grayLight, 20%);
+ box-shadow: 3px 3px 1px 3px fade(@grayLight, 10%);
+
+	.carousel-caption h2 {
+		color: @grayLighter;
+	}
+	
+	.heroImage img {
+		.center-block;
+		margin: 20px auto;
+		margin-top: 60px;
+}
+	.heroDiv {
+		border-top-left-radius: 15px;
+		border-top-right-radius: 15px;	 
+	}
+
+	.manifesto {
+		#gradient.radial(@sdYellow,#f5f5f5);
+		padding: 20px 0px;
+	}
+	
+	
+}
+
+
+
+/* =============================================================================
+   Sidebar
+   ========================================================================== */
+
+#sidebar {
+}
+
+/* =============================================================================
+   Posts
+   ========================================================================== */
+
+.hentry header { margin-bottom: @baseLineHeight;}
+.hentry h2 a { text-decoration: none; }
+.hentry time { display: block; }
+.hentry p.byline { }
+.hentry footer { clear: both; }
+
+
+
+/* =============================================================================
+   Post Comments
+   ========================================================================== */
+
+#comments, #respond, #submit { clear: both; display: block; }
+ol.commentlist img.avatar { float: left; margin-right: 10px; }
+
+
+
+/* =============================================================================
+   Footer
+   ========================================================================== */
+
+#content-info {
+  margin-top: 45px;
+  padding: 35px 0 36px;
+  border-top: 1px solid #e5e5e5; 
+}
+
+#content-info p small { 
+  font-size: 13px;
+}
+
+
+
+/* =============================================================================
+   WordPress Generated Classes
+   See: http://codex.wordpress.org/CSS#WordPress_Generated_Classes
+   ========================================================================== */
+
+.aligncenter { display: block; margin: 0 auto; }
+.alignleft { margin: 0 20px 20px 0; float: left; }
+.alignright { margin: 0 0 20px 20px; float: right; }
+
+
+
+/* =============================================================================
+   Media Queries
+   ========================================================================== */
+
+@media (max-width: 979px) {
+  /* Fix top padding when using the responsive grid with the fixed topbar */
+  body {
+    padding-top: 0px;
+  }
+}
+
+/* -----------------------------------------------------------------------------
+   Begin MOL stylings here 
+   ----------------------------------------------------------------------------- */
+/* ============================================ 
+   NAVBAR
+   ============================================ */
+
+/* Screw the fancy fonts for the time being 
+.brand {
+	font-family: "Pacifico";
+}
+.nav {
+	font-family: "Overlock SC";
+}
+*/
+
+.logo {
+	/* These are some hacks to center things... fix better, later */
+	margin-bottom: -10px;
+	margin-left: 10px;
+}
+
+
+/* ============================================ 
+   SIDEBAR VILLE
+   ============================================ */
+
+
+/* Breadcrumb business */
+.breadcrumb {
+  padding: 0px 0px;
+  margin: 0 0 @baseLineHeight;
+  list-style: none;
+  background: none;
+  border: none;
+  .border-radius(none);
+  .box-shadow(none);
+  li {
+    display: inline-block;
+    .ie7-inline-block();
+    text-shadow: 0 1px 0 @white;
+  }
+  .divider {
+    padding: 0 5px;
+    color: @grayLight;
+  }
+  .active a {
+    color: @grayLight;
+  }
+}
+
+
+/* ============================================ 
+   FRONT PAGE 
+   ============================================ */
+.carouselHead {}
+
+/* Carousel Styling */
+.carousel .item {-webkit-transition: opacity 3s; -moz-transition: opacity 3s; -ms-transition: opacity 3s; -o-transition: opacity 3s; transition: opacity 3s;}
+.carousel .active.left {left:0;opacity:0;z-index:2;}
+.carousel .next {left:0;opacity:1;z-index:1;}
+
+/* Functional and Decorative Modules */
+	.frontPageModule {
+		.thumbnails {
+			margin-right: 20px;
+		}
+	#gradient.vertical(#f5f5f5, fade(@grayLight, 2%))
+}
+
+/* ============================================ 
+   SINGLE POSTS 
+   ============================================ */
+
+.anchor {
+	padding-top: 55px;
+}
+
+/* ============================================ 
+   ABOUT PAGE 
+   ============================================ */
+
+/* ============================================ 
+   IMAGE GALLERY 
+   ============================================ */
+#selectedItemImg {
+	margin-bottom: 20px;
+}
+
