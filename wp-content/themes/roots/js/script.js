@@ -5,5 +5,6 @@ $(document).ready(function() {
 	$('.dropdown-toggle').dropdown();
 	$('.carousel').carousel();
 	$('#whereToBuyModal').modal();
+	$(".fancybox").fancybox();
 });
 
