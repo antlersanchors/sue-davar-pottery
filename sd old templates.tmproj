@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>currentDocument</key>
+	<string>wp-content/themes/roots backup/Pottery_Gallery.php</string>
+	<key>documents</key>
+	<array>
+		<dict>
+			<key>filename</key>
+			<string>wp-content/themes/roots backup/Pottery_Gallery.php</string>
+			<key>lastUsed</key>
+			<date>2012-12-02T22:03:44Z</date>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>wp-content/themes/roots backup/drinking_vessels.php</string>
+			<key>lastUsed</key>
+			<date>2012-12-02T22:03:18Z</date>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>wp-content/themes/roots backup/Where_to_Buy.php</string>
+			<key>lastUsed</key>
+			<date>2012-12-02T22:03:21Z</date>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>wp-content/themes/roots backup/tea_pots.php</string>
+			<key>lastUsed</key>
+			<date>2012-12-02T21:48:17Z</date>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>wp-content/themes/roots backup/Story.php</string>
+			<key>lastUsed</key>
+			<date>2012-12-02T21:48:16Z</date>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>wp-content/themes/roots backup/front-page.php</string>
+			<key>lastUsed</key>
+			<date>2012-12-02T22:03:35Z</date>
+			<key>selected</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>wp-content/themes/roots backup/About_Sue.php</string>
+			<key>lastUsed</key>
+			<date>2012-12-02T21:48:15Z</date>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>wp-content/themes/roots backup/page.php</string>
+		</dict>
+	</array>
+	<key>fileHierarchyDrawerWidth</key>
+	<integer>162</integer>
+	<key>metaData</key>
+	<dict>
+		<key>wp-content/themes/roots backup/About_Sue.php</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>0</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>wp-content/themes/roots backup/Pottery_Gallery.php</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>0</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>wp-content/themes/roots backup/Story.php</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>0</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>wp-content/themes/roots backup/Where_to_Buy.php</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>0</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>wp-content/themes/roots backup/drinking_vessels.php</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>46</integer>
+				<key>line</key>
+				<integer>0</integer>
+			</dict>
+			<key>columnSelection</key>
+			<false/>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+			<key>selectFrom</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>0</integer>
+			</dict>
+			<key>selectTo</key>
+			<dict>
+				<key>column</key>
+				<integer>46</integer>
+				<key>line</key>
+				<integer>0</integer>
+			</dict>
+		</dict>
+		<key>wp-content/themes/roots backup/front-page.php</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>0</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>wp-content/themes/roots backup/tea_pots.php</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>0</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>openDocuments</key>
+	<array>
+		<string>wp-content/themes/roots backup/front-page.php</string>
+		<string>wp-content/themes/roots backup/Pottery_Gallery.php</string>
+		<string>wp-content/themes/roots backup/About_Sue.php</string>
+		<string>wp-content/themes/roots backup/Story.php</string>
+		<string>wp-content/themes/roots backup/tea_pots.php</string>
+		<string>wp-content/themes/roots backup/Where_to_Buy.php</string>
+		<string>wp-content/themes/roots backup/drinking_vessels.php</string>
+	</array>
+	<key>showFileHierarchyDrawer</key>
+	<true/>
+	<key>windowFrame</key>
+	<string>{{-1, 4}, {960, 1054}}</string>
+</dict>
+</plist>
