@@ -1,53 +1,50 @@
-# [Roots Theme](http://rootstheme.com/)
+# [Roots Theme](http://www.rootstheme.com/)
 
-Roots is a starting WordPress theme made for developers that’s based on [HTML5 Boilerplate](http://html5boilerplate.com/) and Bootstrap from Twitter.
+Roots is a starting WordPress theme made for developers that’s based on [HTML5 Boilerplate](http://html5boilerplate.com/) and [Bootstrap from Twitter](http://twitter.github.com/bootstrap/).
 
-## Quick start
+## Installation
 
 * Clone the git repo - `git clone git://github.com/retlehs/roots.git` - or [download it](https://github.com/retlehs/roots/zipball/master)
-* Read [Theme Activation](https://github.com/retlehs/roots/wiki/Theme-activation) to understand everything that happens once you activate Roots
+* Reference the [theme activation](/retlehs/roots/blob/master/doc/activation.md) documentation to understand everything that happens once you activate Roots
+
+## Configuration
+
+Edit `lib/config.php` to enable or disable support for various theme functions and to define constants that are used throughout the theme.
+
+Edit `lib/init.php` to setup custom navigation menus and post thumbnail sizes.
+
+## Documentation
+
+Take a look at the [documentation table of contents](/retlehs/roots/blob/master/doc/TOC.md).
 
 ## Features
 
-* HTML5 Boilerplate’s markup, style, and .htaccess
+* HTML5 Boilerplate’s markup and `.htaccess`
 * Bootstrap from Twitter
-* Clean URLs (no more `/wp-content/`)
-* All static theme assets are rewritten to the website root (`/css/`, `/img/`, and `/js/`)
-* Cleaner HTML output of navigation menus
+* Theme wrapper
 * Root relative URLs
-* Posts use the hNews microformat
-* `wp_head` has been cleaned up along with the output of enqueued styles and scripts
-* Robots.txt optimized for SEO
-* [Multilingual ready](http://www.rootstheme.com/wpml/) (English, Spanish, French, Italian, Dutch, Brazilian Portuguese, Macedonian, Finnish, Danish, and Turkish)
+* Clean URLs (no more `/wp-content/`)
+* All static theme assets are rewritten to the website root (`/assets/css/`, `/assets/img/`, and `/assets/js/`)
+* Cleaner HTML output of navigation menus
+* Cleaner output of `wp_head` and enqueued scripts/styles
+* Posts use the [hNews](http://microformats.org/wiki/hnews) microformat
+* [Multilingual ready](http://www.rootstheme.com/wpml/) (English, Spanish, French, Italian, Dutch, Brazilian Portuguese, Macedonian, Finnish, Danish, Turkish, Swedish, Bulgarian, Norwegian, Catalan, Polish, Hungarian, Russian)
 
 ## Contributing
 
-Anyone and everyone is welcome to contribute. There are several ways you can help out:
+Everyone is welcome to help [contribute](/retlehs/roots/blob/master/CONTRIBUTING.md) and improve this project. There are several ways you can contribute:
 
-1. Raising [issues](https://github.com/retlehs/roots/issues) on GitHub
-2. Sending pull requests for bug fixes or new features and improvements
-3. Making the [docs](https://github.com/retlehs/roots/wiki) better
-4. Replying to questions on the [mailing list](http://groups.google.com/group/roots-theme)
+* Reporting issues (please read [issue guidelines](https://github.com/necolas/issue-guidelines))
+* Suggesting new features
+* Writing or editing [docs](/retlehs/roots/blob/master/doc/TOC.md)
+* Writing or refactoring code
+* Fixing [issues](https://github.com/retlehs/roots/issues)
+* Replying to questions on the [Google Group](http://groups.google.com/group/roots-theme)
 
 ## Project information
 
 * Source: [https://github.com/retlehs/roots](https://github.com/retlehs/roots)
-* Web: [http://rootstheme.com/](http://rootstheme.com/)
-* Docs: [https://github.com/retlehs/roots/wiki](https://github.com/retlehs/roots/wiki)
-* Mailing list: [http://groups.google.com/group/roots-theme](http://groups.google.com/group/roots-theme)
-* Twitter: [@retlehs](https://twitter.com/#!/retlehs)
+* Web: [http://www.rootstheme.com/](http://www.rootstheme.com/)
+* Google Group: [http://groups.google.com/group/roots-theme](http://groups.google.com/group/roots-theme)
+* Twitter Updates: [@retlehs](https://twitter.com/#!/retlehs)
 * Contributors: [https://github.com/retlehs/roots/contributors](https://github.com/retlehs/roots/contributors)
-
-## License
-
-### Major components:
-
-* HTML5 Boilerplate: The Unlicense
-* Modernizr: MIT/BSD license
-* jQuery: MIT/GPL license
-* Normalize.css: Public Domain
-* Bootstrap: Apache 2.0 license
-
-### Everything else:
-
-The Unlicense (aka: public domain)

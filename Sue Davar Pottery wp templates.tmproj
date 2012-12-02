@@ -3,26 +3,28 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>wp-content/themes/roots/Pottery_Gallery.php</string>
+	<string>wp-content/themes/roots/functions.php</string>
 	<key>documents</key>
 	<array>
 		<dict>
 			<key>filename</key>
 			<string>wp-content/themes/roots/footer.php</string>
 			<key>lastUsed</key>
-			<date>2012-09-23T22:24:06Z</date>
+			<date>2012-12-02T02:02:48Z</date>
 		</dict>
 		<dict>
 			<key>filename</key>
 			<string>wp-content/themes/roots/front-page.php</string>
 			<key>lastUsed</key>
-			<date>2012-09-23T22:47:17Z</date>
+			<date>2012-12-02T02:02:48Z</date>
 		</dict>
 		<dict>
 			<key>filename</key>
 			<string>wp-content/themes/roots/functions.php</string>
 			<key>lastUsed</key>
-			<date>2012-07-19T01:53:43Z</date>
+			<date>2012-12-02T05:17:39Z</date>
+			<key>selected</key>
+			<true/>
 		</dict>
 		<dict>
 			<key>filename</key>
@@ -70,9 +72,7 @@
 			<key>filename</key>
 			<string>wp-content/themes/roots/Pottery_Gallery.php</string>
 			<key>lastUsed</key>
-			<date>2012-09-29T21:22:23Z</date>
-			<key>selected</key>
-			<true/>
+			<date>2012-12-02T02:02:47Z</date>
 		</dict>
 		<dict>
 			<key>filename</key>
@@ -96,13 +96,13 @@
 			<key>filename</key>
 			<string>wp-content/themes/roots/page.php</string>
 			<key>lastUsed</key>
-			<date>2012-07-19T00:49:46Z</date>
+			<date>2012-12-02T02:02:49Z</date>
 		</dict>
 		<dict>
 			<key>filename</key>
 			<string>wp-content/themes/roots/sidebar.php</string>
 			<key>lastUsed</key>
-			<date>2012-07-19T00:49:45Z</date>
+			<date>2012-12-02T02:02:49Z</date>
 		</dict>
 		<dict>
 			<key>filename</key>
@@ -114,7 +114,7 @@
 			<key>filename</key>
 			<string>wp-content/themes/roots/searchform.php</string>
 			<key>lastUsed</key>
-			<date>2012-07-19T00:49:45Z</date>
+			<date>2012-12-02T02:02:49Z</date>
 		</dict>
 	</array>
 	<key>fileHierarchyDrawerWidth</key>
@@ -145,7 +145,7 @@
 				<integer>53</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
-			<integer>77</integer>
+			<integer>0</integer>
 			<key>firstVisibleLine</key>
 			<integer>16</integer>
 		</dict>
@@ -249,7 +249,7 @@
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>44</integer>
+			<integer>0</integer>
 		</dict>
 		<key>wp-content/themes/roots/header.php</key>
 		<dict>
@@ -424,28 +424,15 @@
 	</dict>
 	<key>openDocuments</key>
 	<array>
-		<string>wp-content/themes/roots/footer.php</string>
-		<string>wp-content/themes/roots/front-page.php</string>
 		<string>wp-content/themes/roots/page.php</string>
-		<string>wp-content/themes/roots/searchform.php</string>
-		<string>wp-content/themes/roots/sidebar.php</string>
 		<string>wp-content/themes/roots/functions.php</string>
-		<string>wp-content/themes/roots/header.php</string>
 		<string>wp-content/themes/roots/index.php</string>
-		<string>wp-content/themes/roots/loop.php</string>
-		<string>wp-content/themes/roots/loop-single.php</string>
 		<string>wp-content/themes/roots/single.php</string>
-		<string>wp-content/themes/roots/About_Sue.php</string>
-		<string>wp-content/themes/roots/loop-page.php</string>
 		<string>wp-content/themes/roots/page-custom.php</string>
-		<string>wp-content/themes/roots/page-full.php</string>
-		<string>wp-content/themes/roots/Story.php</string>
-		<string>wp-content/themes/roots/Where_to_Buy.php</string>
-		<string>wp-content/themes/roots/Pottery_Gallery.php</string>
 	</array>
 	<key>showFileHierarchyDrawer</key>
 	<true/>
 	<key>windowFrame</key>
-	<string>{{971, 4}, {805, 1054}}</string>
+	<string>{{235, 4}, {805, 1054}}</string>
 </dict>
 </plist>
