@@ -1,5 +1,6 @@
 /* Importing variables */
 @import "variables.less";
+@import "mixins.less";
 
 /* ==========================================================================
    Sue Davar Pottery colours
@@ -46,7 +47,43 @@ body.admin-bar .navbar-fixed-top { top: 28px; }
    Primary Content
    ========================================================================== */
 
-#main { }
+#main { 
+
+/* Default background for content — initially lifted from wells.less */
+
+min-height: 20px;
+ padding: 30px;
+ margin-bottom: 20px;
+ background: url(../Design%20Artefacts/transBG.png), #f5f5f5;
+ border: 1px solid #eee;
+ border: 1px solid rgba(0, 0, 0, 0.05);
+ -webkit-border-radius: 15px;
+ -moz-border-radius: 15px;
+ border-radius: 15px;
+ -webkit-box-shadow: 3px 3px 1px 3px fade(@grayLight, 20%);
+ -moz-box-shadow: 3px 3px 1px 3px fade(@grayLight, 20%);
+ box-shadow: 3px 3px 1px 3px fade(@grayLight, 10%);
+
+	.carousel-caption h2 {
+		color: @grayLighter;
+	}
+	
+	.heroImage img {
+		.center-block;
+		margin: 20px auto;
+		margin-top: 60px;
+}
+	.heroDiv {
+		border-top-left-radius: 15px;
+		border-top-right-radius: 15px;	 
+	}
+
+	.manifesto {
+		#gradient.radial(@sdYellow,#f5f5f5);
+		padding: 20px 0px;
+	}
+
+}
 
 
 
