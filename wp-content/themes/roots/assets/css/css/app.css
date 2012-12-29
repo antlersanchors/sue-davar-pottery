@@ -1,4 +1,3 @@
-/* Importing variables */
 .clearfix {
   *zoom: 1;
 }
@@ -28,7 +27,16 @@
 }
 /* ==========================================================================
    Sue Davar Pottery colours
-   ========================================================================== */
+   
+@sdYellow:				#ffcc33;
+@sdOrange:				#ff6633;
+
+@sdMustard:				#ccc314;
+@sdLightBlue:			#73b1ff;
+@sdBlue:				#1496cc;
+
+@sdTeal:				#66CCCC;
+========================================================================== */
 /* ==========================================================================
    Base
    ========================================================================== */
@@ -66,16 +74,16 @@ body.admin-bar .navbar-fixed-top {
   -webkit-box-shadow: 3px 3px 1px 3px rgba(153, 153, 153, 0.2);
   -moz-box-shadow: 3px 3px 1px 3px rgba(153, 153, 153, 0.2);
   box-shadow: 3px 3px 1px 3px rgba(153, 153, 153, 0.1);
+  /*	.heroImage img {
+		.center-block;
+		margin: 20px auto;
+		margin-top: 60px;
+}
+*/
+
 }
 #main .carousel-caption h2 {
   color: #eeeeee;
-}
-#main .heroImage img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin: 20px auto;
-  margin-top: 60px;
 }
 #main .heroDiv {
   border-top-left-radius: 15px;
