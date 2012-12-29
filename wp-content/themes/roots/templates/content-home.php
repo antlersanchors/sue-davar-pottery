@@ -1,6 +1,6 @@
 <?php /* Template Name: home_page */ ?>
 <div class="row"><!-- Hero Image -->
-					<div class="carouselHead span10">
+					<div class="carouselHead span10 offset1">
 					<!-- Begin the Carousel -->
 					<div id="myCarousel" class="carousel slide">
 					  <!-- Carousel items -->
@@ -35,7 +35,7 @@
 		</div><!-- /#Hero Image -->
 <!-- Manifesto Paragraph -->		
 <div class="row">
-	<div class="span10 manifesto">
+	<div class="span10 offset1 manifesto">
 		<div class="row">
 	<div class="span6 offset2">
 <p class="drop-cap expansive">S<span style="text-transform: uppercase; font-family: serif">ue Davar is a potter and ceramic artist</span> living and working on the edge of Riding Mountain National Park, Manitoba. Quinoa sustainable four loko. Ex cupidatat exercitation food truck non assumenda mixtape. Browse the site for examples of her beautiful, functional, and decorative work, and links on where to find it. Enjoy your stay.
@@ -47,7 +47,7 @@
 <hr>
 
 <div class="row">
-<div class="span10">
+<div class="span10 offset1">
 <div class="row">
 <div class="span4 frontPageModule pull-left well well-round">
 <h3>Functional Pottery Art</h3>
@@ -79,7 +79,7 @@
 
 <hr>
 <div class="row">
-<div class="span10">
+<div class="span10 offset1">
 <div class="row">
 	<div id="newsFeed" class="span3">
 		<h5>Latest News</h5>
