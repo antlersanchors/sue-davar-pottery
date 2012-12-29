@@ -1,8 +1,4 @@
-
 *.tmproj
-
-sd new templates.tmproj
-
 assets/
 images/
 wp-includes/
