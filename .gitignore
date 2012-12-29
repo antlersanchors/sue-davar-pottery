@@ -2,3 +2,18 @@
 *.tmproj
 
 sd new templates.tmproj
+
+assets/*
+images/*
+wp-includes/*
+wp-admin/*
+wp-content/Developer/*
+wp-content/gallery/*
+wp-content/index.php
+wp-content/plugins/*
+wp-content/Folders/*
+wp-content/themes/Folders
+wp-content/themes/twentyten
+wp-content/themes/twentyeleven
+wp-content/themes/Developer
+wp-content/themes/index.php
