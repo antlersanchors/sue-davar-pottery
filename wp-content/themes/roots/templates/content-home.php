@@ -148,3 +148,11 @@
 </div><!-- /#span8 -->
 </div><!-- /#row -->
 </div><!-- /#main -->
+
+<!-- Call Carousel -->
+<script type="text/javascript">
+$('.carousel').carousel({
+  interval: 6000
+})
+</script>
+<!-- /Call Carousel -->
