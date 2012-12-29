@@ -30,7 +30,7 @@
         printf(__('Search Results for %s', 'roots'), get_search_query());
       } elseif (is_404()) {
         _e('File Not Found', 'roots');
-      } else {
+      } elseif (!is_home())  {
         the_title();
       }
     ?>
